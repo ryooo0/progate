@@ -41,3 +41,18 @@ const level = 12;
 if (level > 10) {
   console.log("レベルが10より大きいです");
 }
+
+const password = "ninjawanko";
+if (password == "ninjawanko") {
+  console.log("ログインに成功しました");
+}
+if (password != "ninjawanko") {
+  console.log("パスワードが間違っています");
+}
+
+const age = 17;
+if (age >= 20) {
+  console.log("私は20歳以上です");
+} else {
+  console.log("私は20歳未満です");
+}
