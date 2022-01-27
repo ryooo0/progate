@@ -65,3 +65,21 @@ if (age >= 20) {
 } else {
   console.log("私は10歳未満です");
 }
+
+const age = 24;
+if (age >= 20 && age < 30) {
+  console.log("私は20代です");
+}
+
+const n = 2;
+switch (n) {
+  case 1:
+    console.log("大吉です");
+    break;
+  case 2:
+    console.log("吉です");
+    break;
+  case 3:
+    console.log("小吉です");
+    break;
+}
