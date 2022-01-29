@@ -99,3 +99,22 @@ switch (n) {
     console.log("凶です");
     break;
 }
+
+
+let number = 0;
+number += 1;
+console.log(number);
+number += 1;
+console.log(number);
+number += 1;
+console.log(number);
+number += 1;
+console.log(number);
+number += 1;
+console.log(number);
+
+let number = 1;
+while (number <= 100) {
+  console.log(number);
+  number += 1;
+}
