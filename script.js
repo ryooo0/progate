@@ -118,3 +118,15 @@ while (number <= 100) {
   console.log(number);
   number += 1;
 }
+
+for (let number = 1; number <=100; number++) {
+  console.log(number);
+}
+
+for (let number = 1; number <= 100; number++) {
+  if (number % 3 == 0) {
+    console.log("3の倍数です");
+  } else {
+    console.log(number);
+  }
+}
