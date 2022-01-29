@@ -130,3 +130,13 @@ for (let number = 1; number <= 100; number++) {
     console.log(number);
   }
 }
+
+const animals = ["dog", "cat", "sheep"];
+console.log(animals);
+console.log(animals[0]);
+console.log(animals[2]);
+animals[2] = "rabbit";
+console.log(animals[2]);
+for (let i = 0; i < 3; i++) {
+  console.log(animals[i]);
+}
