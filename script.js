@@ -154,3 +154,32 @@ const character = {name: "にんじゃわんこ", age: 14};
 console.log(character.name);
 character.age = 20;
 console.log(character);
+
+const characters = [
+  {name: "にんじゃわんこ", age: 14},
+  {name: "ひつじ仙人", age: 1000}
+];
+console.log(characters[0]);
+console.log(characters[1].name);
+
+const characters = [
+  {name: "にんじゃわんこ", age: 14},
+  {name: "ひつじ仙人", age: 100},
+  {name: "ベイビーわんこ", age: 5},
+];
+for (let i = 0; i < characters.length; i++) {
+  console.log("--------------------");
+  const character = characters[i];
+  console.log(`名前は${character.name}です`);
+  console.log(`${character.age}歳です`);
+}
+
+const cafe = {
+  name: "Progateカフェ",
+  businessHours: {
+    opening: "10:00(AM)",
+    closing: "8:00(PM)"
+  }
+};
+console.log(`店名:${cafe.name}`);
+console.log(`営業時間: ${cafe.businessHours.opening}から${cafe.businessHours.closing}`);
