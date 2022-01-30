@@ -146,3 +146,11 @@ console.log(animals.length);
 for (let i = 0; i < animals.length; i++) {
   console.log(animals[i]);
 }
+
+const character = {name: "にんじゃわんこ", age: 14};
+console.log(character);
+
+const character = {name: "にんじゃわんこ", age: 14};
+console.log(character.name);
+character.age = 20;
+console.log(character);
