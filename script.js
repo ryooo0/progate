@@ -183,3 +183,8 @@ const cafe = {
 };
 console.log(`店名:${cafe.name}`);
 console.log(`営業時間: ${cafe.businessHours.opening}から${cafe.businessHours.closing}`);
+
+const hello = function() {
+  console.log("こんにちは！");
+}
+hello();
