@@ -188,3 +188,15 @@ const hello = function() {
   console.log("こんにちは！");
 }
 hello();
+
+const greet = () => {
+  console.log("こんにちは！");
+};
+greet();
+
+const greet = (name) => {
+  console.log(`こんにちは、${name}さん`);
+};
+greet("ひつじ仙人");
+
+
