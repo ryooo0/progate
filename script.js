@@ -224,3 +224,20 @@ const toMinutes = (hour, minute) => {
 }
 const result = toMinutes(3, 20);
 console.log(`${result}分`);
+
+const animal = {
+  name: "レオ",
+  age: 3,
+  greet: () => {
+    console.log("こんにちは");
+  }
+}
+console.log(animal.name);
+animal.greet();
+
+class Animal {
+  constructor () {
+    console.log("インスタンスを生成しました");
+  }
+}
+const animal = new Animal();
