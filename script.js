@@ -333,11 +333,9 @@ class Animal {
     this.name = name;
     this.age = age;
   }
-  
   greet() {
     console.log("こんにちは");
   }
-  
   info() {
     this.greet();
     console.log(`名前は${this.name}です`);
@@ -390,11 +388,9 @@ class Animal {
     this.name = name;
     this.age = age;
   }
-  
   greet() {
     console.log("こんにちは");
   }
-  
   info() {
     this.greet();
     console.log(`名前は${this.name}です`);
@@ -410,7 +406,6 @@ class Dog extends Animal {
   info() {
     this.greet();
     console.log(`名前は${this.name}です`);
-    // 「犬種は〇〇です」と出力してください
     console.log(`犬種は${this.breed}です`);
     console.log(`${this.age}歳です`);
     const humanAge = this.getHumanAge();
@@ -422,3 +417,7 @@ class Dog extends Animal {
 }
 const dog = new Dog("レオ", 4, "チワワ");
 dog.info();
+
+import Animal from "./animal";
+export default Dog;
+export default Animal;
