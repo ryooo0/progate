@@ -418,6 +418,10 @@ class Dog extends Animal {
 const dog = new Dog("レオ", 4, "チワワ");
 dog.info();
 
-import Animal from "./animal";
 export default Dog;
 export default Animal;
+import Animal from "./animal";
+
+// 名前つきエクスポート 
+export { dog1, dog2 };
+import { dog1, dog2 } from "./dogData";
