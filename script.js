@@ -442,3 +442,6 @@ const characters = ["にんじゃわんこ", "ベイビーわんこ", "ひつじ
 console.log(characters);
 characters.push("とりずきん");
 console.log(characters);
+
+const characters = ["にんじゃわんこ", "ベイビーわんこ", "ひつじ仙人", "とりずきん"];
+characters.forEach((character) => {console.log(character)});
