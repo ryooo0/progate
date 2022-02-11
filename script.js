@@ -431,3 +431,9 @@ import chalk from "chalk";
 // chalk.yellow、chalk.bgCyanなどで囲むと出力する色を変えられる
 console.log(chalk.yellow(`名前は${this.name}です`));
 console.log(chalk.bgCyan(`犬種は${this.breed}です`));
+
+import readlineSync from "readline-sync";
+// readlineSync.questionでコンソールで入力待機状態になり、入力値を変数に格納できる
+const name = readlineSync.question("名前を入力してください: ");
+// readlineSync.questionIntで入力値に整数を指定できる
+const age = readlineSync.questionInt("年齢を入力してください: ");
