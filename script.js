@@ -437,3 +437,8 @@ import readlineSync from "readline-sync";
 const name = readlineSync.question("名前を入力してください: ");
 // readlineSync.questionIntで入力値に整数を指定できる
 const age = readlineSync.questionInt("年齢を入力してください: ");
+
+const characters = ["にんじゃわんこ", "ベイビーわんこ", "ひつじ仙人"];
+console.log(characters);
+characters.push("とりずきん");
+console.log(characters);
