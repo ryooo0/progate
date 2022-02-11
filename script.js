@@ -422,6 +422,12 @@ export default Dog;
 export default Animal;
 import Animal from "./animal";
 
-// 名前つきエクスポート 
+// 名前つきエクスポート
 export { dog1, dog2 };
 import { dog1, dog2 } from "./dogData";
+
+// パッケージを自分のプログラムで使うためには、importを用いてパッケージをインポート
+import chalk from "chalk";
+// chalk.yellow、chalk.bgCyanなどで囲むと出力する色を変えられる
+console.log(chalk.yellow(`名前は${this.name}です`));
+console.log(chalk.bgCyan(`犬種は${this.breed}です`));
