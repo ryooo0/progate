@@ -521,3 +521,11 @@ call(printWanko);
 call(() => {
   console.log("ひつじ仙人");
 });
+
+// コールバック関数を引数の中で定義(２つ以上の引数を渡す)
+const call = (callback) => {
+  callback("にんじゃわんこ", 14);
+};
+call((name, age) => {
+  console.log(`${name}は${age}歳です。`);
+});
